@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:orientation="vertical"
+    android:background="#8E58FA">
+    <TextView
+        android:layout_width="137dp"
+        android:layout_height="123dp"
+        android:background="@drawable/registration"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:background="#A67AFF"
+        android:gravity="center"
+        android:text="SIGN IN"
+        android:textSize="50sp"
+        tools:ignore="TextContrastCheck" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterMaxLength="8">
+
+        <EditText
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="ENTER USER NAME"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:maxLength="8"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:id="@+id/et11"
+            tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="ENTER PASSWORD"
+            android:importantForAutofill="no"
+            android:inputType="numberPassword"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:maxLength="6"
+            android:id="@+id/et12"
+            tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/oval"
+        android:text="SIGN IN"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck"
+        android:id="@+id/btn5"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/under"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_margin="20dp"
+        android:id="@+id/tv1" />
+</LinearLayout>

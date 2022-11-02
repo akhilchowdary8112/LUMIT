@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8"
+    android:orientation="vertical"
+    android:background="#8E58FA">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADOPTION"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:background="#A67AFF"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You might have to visit the orphanage selected by you once in order to adopt the children."
+        android:textSize="30sp"
+        android:background="#C8C1C1"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Child Age"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:background="#C8C1C1"
+        android:layout_margin="10dp"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:background="#98A3DC"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select State"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:background="#C8C1C1"
+        android:layout_margin="10dp"/>
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:background="#98A3DC"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select District"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:background="#C8C1C1"
+        android:layout_margin="10dp"/>
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="8dp"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:background="#98A3DC"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:textSize="30sp"
+        android:background="@drawable/oval"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:id="@+id/btn30"/>
+</LinearLayout>

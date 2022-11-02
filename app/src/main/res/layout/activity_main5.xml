@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5"
+    android:orientation="vertical"
+    android:background="#8E58FA">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location Details"
+        android:textSize="50sp"
+        android:background="#A67AFF"
+        android:gravity="center"
+        android:layout_margin="6dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:background="#98A3DC"
+        android:gravity="center"
+        android:id="@+id/showLocation"/>
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/oval"
+    android:text="Get Location"
+    android:textAlignment="center"
+    android:textSize="30sp"
+    android:id="@+id/btn18"
+        android:layout_margin="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:background="#C8C1C1"
+        android:layout_margin="5dp"
+        android:text="Click on-GET LOCATION"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:background="#C8C1C1"
+        android:layout_margin="5dp"
+        android:text="This is for our access and you don't have any job with this.You just click on-GET LOCATION and then-NEXT"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="190dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/oval"
+        android:text="NEXT"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:id="@+id/btn19"/>
+</LinearLayout>

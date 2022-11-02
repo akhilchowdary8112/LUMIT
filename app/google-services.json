@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "245869174675",
+    "project_id": "lumit-87efc",
+    "storage_bucket": "lumit-87efc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245869174675:android:9960262c7652b22852d266",
+        "android_client_info": {
+          "package_name": "com.example.lumit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245869174675-6dj1c8cqinqcucaup0pg3n6j93oqptf7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYouapw0O5-MQ7TROtN6ckV12uDKxKFKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245869174675-6dj1c8cqinqcucaup0pg3n6j93oqptf7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

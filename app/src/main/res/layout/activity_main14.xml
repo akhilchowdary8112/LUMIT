@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity14"
+    android:orientation="vertical"
+    android:background="#8E58FA">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="RESET PASSWORD"
+        android:textColor="#B6DC33"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:background="#A67AFF"
+        tools:ignore="TextContrastCheck" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="180dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="ENTER NEW PASSWORD"
+            android:textColor="#A5A5A5"
+            android:textSize="30sp"
+            tools:ignore="TextContrastCheck"
+            android:maxLength="6"
+            android:inputType="numberPassword"
+            android:importantForAutofill="no"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="CONFIRM NEW PASSWORD"
+            android:textColor="#A5A5A5"
+            android:textSize="30sp"
+            tools:ignore="TextContrastCheck"
+            android:maxLength="6"
+            android:inputType="numberPassword"
+            android:importantForAutofill="no"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <Button
+        android:id="@+id/btn20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:layout_marginRight="100sp"
+        android:background="@drawable/oval"
+        android:text="SUBMIT"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textSize="32sp"
+        tools:ignore="TextContrastCheck"/>
+</LinearLayout>

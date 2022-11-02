@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity22"
+    android:orientation="vertical"
+    android:background="#9A69FD">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="ENTER DETAILS"
+        android:textSize="40sp"
+        android:background="#A67AFF"
+        android:gravity="center"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="ENTER CHILD NAME"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColor="#A5A5A5"
+            android:textSize="25sp"
+            android:id="@+id/et20"
+            tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="ENTER AGE"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textColor="#A5A5A5"
+            android:textSize="25sp"
+            android:id="@+id/et21"
+            tools:ignore="TextContrastCheck,SpeakableTextPresentCheck"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GENDER"
+        android:textSize="35sp"
+        android:textColor="#000"
+        android:background="#D8D4D4"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"/>
+    <RadioGroup
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/rgroup">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MALE"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:id="@+id/rbtn1"
+            android:checked="true"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FEMALE"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:id="@+id/rbtn2"/>
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/oval"
+        android:layout_margin="40dp"
+        android:text="ADD DETAILS"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:id="@+id/btn73"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/oval"
+        android:text="EXIT"
+        android:textSize="30sp"
+        android:id="@+id/btn74"
+        android:layout_gravity="center"/>
+</LinearLayout>

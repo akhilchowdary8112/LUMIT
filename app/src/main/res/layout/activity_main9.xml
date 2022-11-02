@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity9"
+    android:orientation="vertical"
+    android:background="#8E58FA">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food Donation"
+        android:textSize="50sp"
+        android:background="#A67AFF"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please pick the date and time to donate."
+        android:textSize="35sp"
+        android:background="#C8C1C1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:textSize="35sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:background="#C8C1C1"
+        android:layout_margin="5dp"/>
+
+    <DatePicker
+        android:id="@+id/dp1"
+        android:layout_width="wrap_content"
+        android:layout_height="237dp"
+        android:layout_margin="6dp"
+        android:background="#98A3DC"
+        android:datePickerMode="calendar"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Time/Session"
+        android:textSize="35sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:background="#C8C1C1"
+        android:layout_margin="6dp"/>
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="6dp"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:background="#98A3DC" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:textSize="30sp"
+        android:background="@drawable/oval"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:id="@+id/btn11"/>
+</LinearLayout>

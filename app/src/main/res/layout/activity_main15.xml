@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity15"
+    android:orientation="vertical"
+    android:background="#8E58FA">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VERIFY MOBILE NUMBER TO REGISTER"
+        android:textSize="35sp"
+        android:background="#A67AFF"
+        android:gravity="center"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="120dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/idEdtNumber"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:hint="ENTER PHONE NO."
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:textSize="30sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/idGetOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtNumber"
+        android:layout_margin="10dp"
+        android:text="Get OTP"
+        android:textAllCaps="false"
+        android:background="@drawable/oval"
+        android:layout_gravity="center"
+        android:textSize="30sp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/idOtp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idBtnGetOtp"
+            android:layout_margin="10dp"
+            android:hint="ENTER OTP"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:textSize="30sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/idVerify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/oval"
+        android:text="Verify OTP"
+        android:textAllCaps="false"
+        android:layout_below="@id/idOtp"
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
+</LinearLayout>
